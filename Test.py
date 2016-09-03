@@ -3,6 +3,9 @@ import networkx as nx
 import itertools as it
 import numpy as np
 import pandas as pd
+import subprocess
+import os
+import glob
 
 
 import graph_work1_0_0 as gw
@@ -54,3 +57,15 @@ for cloud_counter_1 in range(number_of_class_1_clouds):
 
 
 
+command = 'Rscript'
+path2script = 'Rcode\\TDA_betti1_1_0.R'
+path_to_class_0_data = "C:\\Users\\micha\\PycharmProjects\\PersistHomologyOOP\\cloud_data\\clouds_class_0\\"
+path_to_save_class_0_data =  "C:\\Users\\micha\\PycharmProjects\\PersistHomologyOOP\\betti0output\\betti_data_0.csv"
+
+path_to_class_1_data = "C:\\Users\\micha\\PycharmProjects\\PersistHomologyOOP\\cloud_data\\clouds_class_1\\"
+path_to_save_class_1_data =  "C:\\Users\\micha\\PycharmProjects\\PersistHomologyOOP\\betti0output\\betti_data_1.csv"
+
+args_list =[[path_to_class_0_data, path_to_save_class_0_data], [path_to_class_1_data, path_to_save_class_1_data]]
+for args in args_list:
+    cmd =  [command, path2script] + args
+    x = subprocess.check_output(cmd, universal_newlines=True)
