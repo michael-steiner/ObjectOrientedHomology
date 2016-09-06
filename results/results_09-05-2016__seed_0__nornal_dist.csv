@@ -1,0 +1,14 @@
+Accuaracy on training set,Accuaracy on test set,number of clouds,number of nodes,dimension of cloud,class_1 sigma,class_1 mu,class_2 sigma,class_2 mu
+1.0,0.8571428571428571,10,10,4,1,0,1.5,0
+Accuaracy on training set,Accuaracy on test set,number of clouds,number of nodes,dimension of cloud,class_1 sigma,class_1 mu,class_2 sigma,class_2 mu
+1.0,0.8571428571428571,10,10,4,1,0,1.5,0
+Accuaracy on training set,Accuaracy on test set,number of clouds,number of nodes,dimension of cloud,class_1 sigma,class_1 mu,class_2 sigma,class_2 mu
+1.0,0.8648648648648649,100,10,4,1,0,1.5,0
+Accuaracy on training set,Accuaracy on test set,number of clouds,number of nodes,dimension of cloud,class_1 sigma,class_1 mu,class_2 sigma,class_2 mu
+1.0,0.7142857142857143,10,10,4,1,0,1.5,0
+Accuaracy on training set,Accuaracy on test set,number of clouds,number of nodes,dimension of cloud,class_1 sigma,class_1 mu,class_2 sigma,class_2 mu
+1.0,0.7142857142857143,10,10,4,1,0,1.5,0
+Accuaracy on training set,Accuaracy on test set,number of clouds,number of nodes,dimension of cloud,class_1 sigma,class_1 mu,class_2 sigma,class_2 mu
+1.0,0.803030303030303,100,10,4,1,0,1.5,0
+Accuaracy on training set,Accuaracy on test set,number of clouds,number of nodes,dimension of cloud,class_1 sigma,class_1 mu,class_2 sigma,class_2 mu
+1.0,0.7121212121212122,100,10,3,1,0,1.5,0
